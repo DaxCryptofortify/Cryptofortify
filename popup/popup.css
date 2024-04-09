@@ -1,0 +1,36 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #000; 
+    color: #fff; 
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-width: 250px; 
+    min-height: 200px; 
+  }
+  #title {
+    font-size: 24px;
+    color: #fff;
+    margin-bottom: 20px;
+  }
+  .wallet-input {
+    width: 90%;     
+    margin-bottom: 10px;
+  }
+  .button {
+    width: 90%; 
+    margin-bottom: 20px;
+  }
+  #status-indicator {
+    font-size: 0.9em;
+    margin-top: 10px;
+  }
+  
+  .active-status {
+    color: #4CAF50; 
+  }
+  .inactive-status {
+    color: #888; 
+  }
